@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/image_s"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/fdj"
+        />
+        <EditText
+            android:id="@+id/edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+   <ningjiaxin1.bwie.com.ningjiaxin20181203.HeadView
+       android:id="@+id/head_tou"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content">
+   </ningjiaxin1.bwie.com.ningjiaxin20181203.HeadView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.TextVi
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp"
+            android:text="最近搜索"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout
+            android:id="@+id/water"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout>
+        <ImageView
+            android:id="@+id/image_del"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/ljt"
+            android:layout_alignParentRight="true" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.TextVi
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="搜索发现"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout
+            android:id="@+id/water1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.TextVi
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="常用分类"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="20sp" />
+        <ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout
+            android:id="@+id/water2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </ningjiaxin1.bwie.com.ningjiaxin20181203.WaterFallLayout>
+    </LinearLayout>
+</LinearLayout>
